@@ -1,0 +1,9 @@
+#Swap Two Variables: Write a Python program that swaps the values of two variables with and without using a third variable.
+a = 10
+b = 20
+
+a = a + b  # a is now 30
+b = a - b  # b is now 30 - 20 = 10
+a = a - b  # a is now 30 - 10 = 20
+
+print(f"a = {a}, b = {b}")
