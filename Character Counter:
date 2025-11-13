@@ -1,0 +1,5 @@
+#Character Counter:
+name=input('Enter your name: ')
+
+
+print(len(name.replace(' ','')))
