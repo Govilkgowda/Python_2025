@@ -1,0 +1,6 @@
+#String Manipulation
+name=input('Enter your name: ')
+print(name.upper())
+print(name.strip())
+print(name.lower())
+print(name.replace(' ','_'))
