@@ -1,0 +1,12 @@
+#Comparison Operator
+# Ask the user for their age
+age = int(input("Enter your age: "))
+
+# Use a dictionary to map the result of the comparison
+messages = {
+    True: "You are an adult",
+    False: "You are a minor"
+}
+
+# Print the appropriate message
+print(messages[age >= 18])
