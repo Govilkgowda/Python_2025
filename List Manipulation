@@ -1,0 +1,9 @@
+students=['Govil','anarghya','anirudh']
+students.append('mical')
+print(students)
+
+students.insert(1,'arun')
+print(students)
+
+students.pop(2)
+print(students)
