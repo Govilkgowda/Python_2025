@@ -1,0 +1,22 @@
+#Tuple Operations:
+tuple=('govil','anarghya','aruna','roopa','gowda')
+print(tuple)
+print(tuple[1:3])
+tuple2=('kumara',)
+print(tuple+tuple2)
+print(tuple[3]) #indexing
+
+#Set Operations: Union:|(no reptation)  Intersection:&(repeted)  Difference:-  Symmetric Difference:^
+fav_fruits1= {"mango", "blueberry", "pineapple", "lychee", "pomegranate"}
+fav_fruits2 = {"banana", "apple", "mango", "grape", "kiwi"}
+
+print(fav_fruits1|fav_fruits2)
+print(fav_fruits1&fav_fruits2)
+print(fav_fruits1-fav_fruits2)
+
+fav_fruits1.add('papaya') #adding
+print(fav_fruits1)
+
+fav_fruits1.discard('papaya')
+print(fav_fruits1)
+
