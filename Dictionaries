@@ -1,0 +1,38 @@
+#Dictionaries in Python
+karnataka_cuisine = {
+    "Bengaluru": "Bisi Bele Bath",
+    "Mysuru": "Mysore Pak",
+    "Mangaluru": "Neer Dosa",
+    "Hubballi": "Jolad Roti",
+    "Udupi": "Udupi Sambar"
+}
+
+karnataka_cuisine['Mandya']='Ragi Ball'
+
+print(type(karnataka_cuisine))
+print(karnataka_cuisine)
+
+karnataka_cuisine['Bengaluru']='Donne Biryani '
+print(karnataka_cuisine)
+
+karnataka_cuisine.pop('Mandya')
+print(karnataka_cuisine)
+
+print(karnataka_cuisine.keys())
+print(karnataka_cuisine.values())
+
+#Nested Dictionary Practice
+friends_info = {
+    "friend_1": {
+        "name": "Aarav",
+        "favorite_subject": "Mathematics",
+        "favorite_food": "Masala Dosa"
+    },
+    "friend_2": {
+        "name": "Diya",
+        "favorite_subject": "History",
+        "favorite_food": "Paneer Butter Masala"
+    }
+}
+
+print(f"Diya's favorite food is {friends_info["friend_2"][ "favorite_food"]}")
