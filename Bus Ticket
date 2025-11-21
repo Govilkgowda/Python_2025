@@ -1,0 +1,21 @@
+print('1.Female')
+print('2.Male')
+
+Gender=int(input('Gender: '))
+
+if Gender==1:
+    print('Gender:Female')
+    print('Ticket Rs. : 00.0')
+
+elif Gender==2:
+    print('Gender:Male')
+    Age=int(input('Age: '))
+    x=float(input('Km : ')) #x=distance
+    if Age<=5:
+       print('Ticket Rs. : 00.0')
+    elif Age<=12:
+       print('Ticket Rs.: '+str(x*4.5))
+    elif Age<=60:
+        print('Ticket Rs.: '+str(x*9))
+    else:
+        print('Ticket Rs.: '+str(x*6.75))
